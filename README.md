@@ -1,13 +1,13 @@
 Namecoin Graphics
 =================
-This is the official repo for Namecoin logos and brand related.  Only material found in this repository and the typographic symbol ℕ should be used for official Namecoin software and for currency identification.
+This is the official repo for Namecoin logos and brand related graphics.  Only material found in this repository and the typographic symbol ℕ should be used for official Namecoin software and for currency identification.
 
 |![Basic][basic]|![Banner][banner]|
 | :-----------: | :-------------: |
 | Basic Logo    | Banner          |
 
-[basic]: https://github.com/namecoin/namecoin-graphics/raw/master/svg/namecoin-logo.svg
-[banner]: https://github.com/namecoin/namecoin-graphics/raw/master/svg/namecoin-banner.svg
+[basic]: https://github.com/phelixnmc/namecoin-graphics/blob/master/png/namecoin-coin_100px.png?raw=true
+[banner]: https://github.com/phelixnmc/namecoin-graphics/blob/master/png/namecoin-banner_500px.png?raw=true
 
 ##Namecoin Blue
 [Pantone Coated 7682 C](http://rgb.to/pantone/coated/7682-c)
