@@ -1,23 +1,16 @@
 Namecoin Graphics
 =================
-This is the official repo for visual collateral (designer speak for logos and brand related graphics) for Namecoin.  Only material found in this repository and the typographic symbol ℕ should be used for official Namecoin software and for currency identification.
+This is the official repo for Namecoin logos and brand related graphics.  Only material found in this repository and the typographic symbol ℕ should be used for official Namecoin software and for currency identification.
 
 |![Basic][basic]|![Banner][banner]|
 | :-----------: | :-------------: |
 | Basic Logo    | Banner          |
 
-[basic]: https://raw.githubusercontent.com/indolering/namecoin-graphics/master/png/200/200-namecoin-logo.png
-[banner]: https://raw.githubusercontent.com/indolering/namecoin-graphics/master/png/500/500-namecoin-logo+wordmark.png
+[basic]: https://github.com/phelixnmc/namecoin-graphics/blob/master/png/namecoin-coin_100px.png?raw=true
+[banner]: https://github.com/phelixnmc/namecoin-graphics/blob/master/png/namecoin-banner_500px.png?raw=true
 
 ##Namecoin Blue
-* **Hex** \#6a91c0
-* **Lab** 65, -6, -25
-* **RGB** 106, 145, 192
-* **HSB** 213, 45, 75 
-* **CMYK** 55, 29, 0, 14 
-* **Pantone CMYK** P 107-2 
-
-You can find pre-generated color schemes [here](http://paletton.com/#uid=13A0u0kdAIF3ZYj8SRJhWytlSsx).
+[Pantone Coated 7682 C](http://rgb.to/pantone/coated/7682-c)
 
 ##Namecoin ℕ
 Namecoin's typographic symbol (often used to identify the currency) is the mathematical symbol for [natural numbers](http://en.wikipedia.org/wiki/Natural_number#Notation), `ℕ`.
@@ -40,7 +33,4 @@ Only these logos should be used as a currency identifier and for branding softwa
 We strongly encourage outsider art and wish to promote liberal expression of the Namecoin brand.  However, this should be restricted to artistic expressions that are part of a larger composition: one-off pieces for fundraisers, images accompanying articles about Namecoin, etc.
 
 ## License
-We have recently suffered from fraudulent software and misinformation spread by cranks and trolls. We intend to release the files under a permissive copyleft license after we have worked out the trademark and copyright issues with a lawyer.  **The vast majority of use-cases are covered by fair-use** and licensing should not be a problem in the interim.  Basically, if you are not a crank or a troll, feel free to use these graphics.
-
-## Modifications
-See `HOWTO.md` for information on altering the graphics.
+We have recently suffered from fraudulent software and misinformation spread by cranks and trolls. We intend to release the files under a permissive copyleft license after we have worked out the trademark and copyright issues with a lawyer.  **The vast majority of use-cases are covered by fair-use** and licensing should not be a problem in the interim.  Basically, if you are not a crank or a troll, feel free to use these graphics.  You are not allowed to impersonate the Namecoin development team or use the Namecoin logo to advertise for other digital currencies.
