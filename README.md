@@ -9,10 +9,15 @@ This is the official repo for Namecoin logos and brand related graphics.  Only m
 [basic]: https://github.com/phelixnmc/namecoin-graphics/blob/master/png/namecoin-coin_100px.png?raw=true
 [banner]: https://github.com/phelixnmc/namecoin-graphics/blob/master/png/namecoin-banner_500px.png?raw=true
 
-##Namecoin Blue
-[Pantone Coated 7682 C](http://rgb.to/pantone/coated/7682-c)
+## Namecoin Blue
+[Pantone Coated 7682 C](http://rgb.to/hex/6787b7)
 
-##Namecoin ℕ
+https://www.pantone.com/color-finder/7682-C
+
+https://sv.wikipedia.org/wiki/Pantone_Matching_System
+
+
+## Namecoin ℕ
 Namecoin's typographic symbol (often used to identify the currency) is the mathematical symbol for [natural numbers](http://en.wikipedia.org/wiki/Natural_number#Notation), `ℕ`.
 
 | Encoding                  |             |
