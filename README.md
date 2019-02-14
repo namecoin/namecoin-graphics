@@ -15,7 +15,7 @@ This is the official repo for Namecoin logos and brand related graphics.  Only m
 
 ## Namecoin ℕ
 
-Namecoin's typographic symbol (often used to identify the currency) is the mathematical symbol for [natural numbers](http://en.wikipedia.org/wiki/Natural_number#Notation), `ℕ`.
+Namecoin's typographic symbol (often used to identify the currency) is the mathematical symbol for [natural numbers](https://en.wikipedia.org/wiki/Natural_number#Notation), `ℕ`.
 
 | Encoding                  |             |
 |---------------------------|-------------|
@@ -25,7 +25,7 @@ Namecoin's typographic symbol (often used to identify the currency) is the mathe
 | URL Escape Code           | `%E2%84%95` |
 | CSS                       | `\002115`   |
 
-The typographic name is "double-struck capital n".  You can find fonts that support the symbol [here](http://www.fileformat.info/info/unicode/char/2115/fontsupport.htm) and information on how to input unicode symbols on [Wikipedia](http://en.wikipedia.org/wiki/Unicode_input).
+The typographic name is "double-struck capital n".  You can find fonts that support the symbol [here](https://www.fileformat.info/info/unicode/char/2115/fontsupport.htm) and information on how to input unicode symbols on [Wikipedia](https://en.wikipedia.org/wiki/Unicode_input).
 
 License
 =======
