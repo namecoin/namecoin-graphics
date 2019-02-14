@@ -11,7 +11,7 @@ This is the official repo for Namecoin logos and brand related graphics.  Only m
 
 ## Namecoin Blue
 
-[Pantone Coated 7682 C](http://rgb.to/pantone/coated/7682-c)
+RGB hex `#6787B7`
 
 ## Namecoin ℕ
 
