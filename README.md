@@ -6,8 +6,8 @@ This is the official repo for Namecoin logos and brand related graphics.  Only m
 | :-----------: | :-------------: |
 | Basic Logo    | Banner          |
 
-[basic]: https://github.com/phelixnmc/namecoin-graphics/blob/master/png/namecoin-coin_100px.png?raw=true
-[banner]: https://github.com/phelixnmc/namecoin-graphics/blob/master/png/namecoin-banner_500px.png?raw=true
+[basic]: https://github.com/namecoin/namecoin-graphics/blob/master/png/namecoin-coin_100px.png?raw=true
+[banner]: https://github.com/namecoin/namecoin-graphics/blob/master/png/namecoin-banner_500px.png?raw=true
 
 ## Namecoin Blue
 
