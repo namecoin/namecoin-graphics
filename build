@@ -14,6 +14,7 @@ for svg in namecoin-banner namecoin-coin namecoin-coin-transparent-letter; do
         inkscape --without-gui --export-eps=eps/${svg}.eps --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
         inkscape --without-gui --export-pdf=pdf/${svg}.pdf --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
         inkscape --without-gui --export-emf=emf/${svg}.emf --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
+        inkscape --without-gui --export-wmf=wmf/${svg}.wmf --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
     fi
     for size in 100 200 500 1000; do
         inkscape --without-gui --export-png=png/${svg}_${size}px.png --export-width ${size} --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
