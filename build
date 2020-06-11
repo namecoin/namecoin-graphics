@@ -8,10 +8,11 @@ if ! which inkscape > /dev/null 2>&1; then
 fi
 
 for svg in namecoin-banner namecoin-coin namecoin-coin-transparent-letter; do
-    # Transparent letter produces a corrupt PS/EPS file.
+    # Transparent letter produces a corrupt file for these formats.
     if [[ "${svg}" != "namecoin-coin-transparent-letter" ]]; then
         inkscape --without-gui --export-ps=ps/${svg}.ps --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
         inkscape --without-gui --export-eps=eps/${svg}.eps --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
+        inkscape --without-gui --export-pdf=pdf/${svg}.pdf --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
     fi
     for size in 100 200 500 1000; do
         inkscape --without-gui --export-png=png/${svg}_${size}px.png --export-width ${size} --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
