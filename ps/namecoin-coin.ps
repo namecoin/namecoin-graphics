@@ -1,14 +1,18 @@
-%!PS-Adobe-3.0 EPSF-3.0
+%!PS-Adobe-3.0
 %%Creator: cairo 1.14.8 (http://cairographics.org)
-%%CreationDate: Thu Jun 11 08:02:12 2020
+%%CreationDate: Thu Jun 11 08:14:23 2020
 %%Pages: 1
 %%DocumentData: Clean7Bit
 %%LanguageLevel: 2
-%%BoundingBox: 0 -1 91 91
+%%DocumentMedia: 33x33mm 92 92 0 () ()
+%%BoundingBox: 0 0 92 93
 %%EndComments
 %%BeginProlog
-save
-50 dict begin
+/languagelevel where
+{ pop languagelevel } { 1 } ifelse
+2 lt { /Helvetica findfont 12 scalefont setfont 50 500 moveto
+  (This print job requires a PostScript Language Level 2 printer.) show
+  showpage quit } if
 /q { gsave } bind def
 /Q { grestore } bind def
 /cm { 6 array astore concat } bind def
@@ -58,33 +62,66 @@ save
 /g { setgray } bind def
 /rg { setrgbcolor } bind def
 /d1 { setcachedevice } bind def
+/cairo_set_page_size {
+  % Change paper size, but only if different from previous paper size otherwise
+  % duplex fails. PLRM specifies a tolerance of 5 pts when matching paper size
+  % so we use the same when checking if the size changes.
+  /setpagedevice where {
+    pop currentpagedevice
+    /PageSize known {
+      2 copy
+      currentpagedevice /PageSize get aload pop
+      exch 4 1 roll
+      sub abs 5 gt
+      3 1 roll
+      sub abs 5 gt
+      or
+    } {
+      true
+    } ifelse
+    {
+      2 array astore
+      2 dict begin
+        /PageSize exch def
+        /ImagingBBox null def
+      currentdict end
+      setpagedevice
+    } {
+      pop pop
+    } ifelse
+  } {
+    pop
+  } ifelse
+} def
 %%EndProlog
 %%BeginSetup
 %%EndSetup
 %%Page: 1 1
 %%BeginPageSetup
-%%PageBoundingBox: 0 -1 91 91
+%%PageMedia: 33x33mm
+%%PageBoundingBox: 0 0 92 93
+93 93 cairo_set_page_size
 %%EndPageSetup
-q 0 -1 91 92 rectclip q
+q 0 0 92 93 rectclip q
 0.403922 0.529412 0.717647 rg
-90.352 44.295 m 89.859 19.346 69.242 -0.478 44.285 0.01 c 19.344 0.502 
--0.484 21.124 0.008 46.069 c 0.496 71.018 21.121 90.846 46.066 90.358 c 
-71.016 89.87 90.844 69.241 90.352 44.295 c h
-90.352 44.295 m f
+91.324 45.261 m 90.832 20.316 70.211 0.488 45.258 0.976 c 20.316 1.468 
+0.484 22.089 0.98 47.039 c 1.465 71.988 22.09 91.816 47.035 91.324 c 71.984
+ 90.835 91.816 70.21 91.324 45.261 c h
+91.324 45.261 m f
 1 g
-72.961 68.217 m 72.969 68.225 l 70.516 68.272 l 70.051 68.288 69.559 68.245
- 69.051 68.135 c 66.258 67.538 63.91 65.159 63.379 62.565 c 57.879 41.452
- l 37.77 68.963 l 37.758 68.956 l 37.77 68.983 l 34.492 69.065 l 34.492 
-69.061 l 34.02 69.077 33.531 69.038 33.027 68.932 c 30.23 68.331 27.887 
-65.952 27.352 63.358 c 16.609 21.999 l 17.422 21.987 l 17.422 21.983 l 19.875
- 21.94 l 20.34 21.924 20.832 21.963 21.336 22.073 c 24.137 22.67 26.48 25.049
- 27.012 27.647 c 32.551 48.913 l 52.664 21.397 l 52.668 21.397 l 52.664 
-21.385 l 55.938 21.303 l 55.941 21.303 l 56.41 21.288 56.898 21.327 57.406
- 21.436 c 60.199 22.038 62.547 24.417 63.078 27.01 c 73.754 68.198 l h
-54.535 28.573 m 34.418 56.096 l 35.898 61.788 l 56.016 34.264 l h
-54.535 28.573 m f
+73.934 69.183 m 73.941 69.195 l 71.488 69.238 l 71.02 69.253 70.531 69.214
+ 70.023 69.105 c 67.227 68.503 64.883 66.128 64.348 63.531 c 58.848 42.421
+ l 38.742 69.933 l 38.727 69.921 l 38.738 69.953 l 35.465 70.031 l 35.461
+ 70.027 l 34.992 70.046 34.5 70.007 33.996 69.898 c 31.199 69.296 28.859
+ 66.921 28.32 64.328 c 17.578 22.968 l 18.391 22.953 l 18.391 22.949 l 20.848
+ 22.906 l 21.312 22.89 21.805 22.929 22.309 23.039 c 25.105 23.64 27.453
+ 26.015 27.984 28.613 c 33.523 49.878 l 53.637 22.367 l 53.641 22.367 l 
+53.637 22.351 l 56.91 22.269 l 56.914 22.273 l 57.379 22.257 57.871 22.296
+ 58.375 22.406 c 61.172 23.007 63.516 25.382 64.051 27.98 c 74.727 69.164
+ l h
+55.508 29.539 m 35.391 57.062 l 36.867 62.757 l 56.988 35.234 l h
+55.508 29.539 m f
 Q Q
 showpage
 %%Trailer
-end restore
 %%EOF

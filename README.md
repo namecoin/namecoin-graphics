@@ -30,4 +30,4 @@ The typographic name is "double-struck capital n".  You can find fonts that supp
 License
 =======
 
-All graphics currently in this repository are licensed under CC BY 4.0.
+All content currently in this repository is licensed under CC BY 4.0.
