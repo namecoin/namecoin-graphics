@@ -7,8 +7,12 @@ if ! which inkscape > /dev/null 2>&1; then
     exit 1
 fi
 
-for size in 100 200 500 1000; do
-    for svg in namecoin-banner namecoin-coin namecoin-coin-transparent-letter; do
+for svg in namecoin-banner namecoin-coin namecoin-coin-transparent-letter; do
+    # Transparent letter produces a corrupt EPS file.
+    if [[ "${svg}" != "namecoin-coin-transparent-letter" ]]; then
+        inkscape --without-gui --export-eps=eps/${svg}.eps --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
+    fi
+    for size in 100 200 500 1000; do
         inkscape --without-gui --export-png=png/${svg}_${size}px.png --export-width ${size} --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
     done
 done
