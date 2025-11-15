@@ -17,6 +17,7 @@ for svg in namecoin-banner namecoin-banner-white-text namecoin-coin namecoin-coi
         inkscape --export-filename=wmf/${svg}.wmf --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
     fi
     for size in 100 200 500 1000 2048; do
-        inkscape --export-filename=png/${svg}_${size}px.png --export-png-compression=9 --export-width ${size} --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
+        inkscape --export-filename=png/${svg}_${size}px.png --export-png-compression=9 --export-png-antialias=3 --export-width ${size} --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
+        inkscape --export-filename=png-no-antialias/${svg}_${size}px.png --export-png-compression=9 --export-png-antialias=0 --export-width ${size} --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
     done
 done
