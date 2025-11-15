@@ -10,13 +10,13 @@ fi
 for svg in namecoin-banner namecoin-banner-white-text namecoin-coin namecoin-coin-transparent-letter; do
     # Transparent letter produces a corrupt file for these formats.
     if [[ "${svg}" != "namecoin-coin-transparent-letter" ]]; then
-        inkscape --export-ps=ps/${svg}.ps --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
-        inkscape --export-eps=eps/${svg}.eps --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
-        inkscape --export-pdf=pdf/${svg}.pdf --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
-        inkscape --export-emf=emf/${svg}.emf --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
-        inkscape --export-wmf=wmf/${svg}.wmf --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
+        inkscape --export-filename=ps/${svg}.ps --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
+        inkscape --export-filename=eps/${svg}.eps --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
+        inkscape --export-filename=pdf/${svg}.pdf --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
+        inkscape --export-filename=emf/${svg}.emf --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
+        inkscape --export-filename=wmf/${svg}.wmf --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
     fi
     for size in 100 200 500 1000 2048; do
-        inkscape --export-png=png/${svg}_${size}px.png --export-width ${size} --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
+        inkscape --export-filename=png/${svg}_${size}px.png --export-width ${size} --export-background=black --export-background-opacity=0.0 svg/${svg}.svg
     done
 done
